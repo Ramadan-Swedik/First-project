@@ -80,6 +80,58 @@ body{
   background-color: #6d0cb7;
 }
 
+.home-body {
+  background-color: #ffcc00;
+  color: #6d0cb7;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-body h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-body h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home-body p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.home-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.home-body ul li {
+  background-color: #fff;
+  color: #6d0cb7;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+.navigation-teaser a {
+  color: #6d0cb7;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navigation-teaser a:hover {
+  color: #4a0891;
+}
+
 .UpBody {
   text-align: center;
   padding: 30px;
@@ -88,7 +140,6 @@ body{
   font-size: 1rem;
   line-height: 1.6;
   width: 100%;
-  margin: 12px;
   border-radius: 10px;
 }
 
@@ -96,6 +147,17 @@ body{
   text-align: center;
   margin-bottom: 20px;
   color: #6d0cb7;
+}
+
+.lower-body {
+  background-color: #ffcc00;
+  color: #6d0cb7;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 1.1rem;
+  border-radius: 10px 10px;
+  margin-top: 40px;
+  margin: 40px;
 }
 
 .gym-schedule {
@@ -156,4 +218,26 @@ body{
   background-color: #fff8dc;
   padding: 10px;
   border-radius: 6px;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(109, 12, 183, 0.4); /* Matches your purple accent */
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
 }

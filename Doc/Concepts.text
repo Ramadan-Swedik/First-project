@@ -1,0 +1,45 @@
+1- Client-Side vs. Server-Side:
+----------------------------
+Client-side refers to everything that happens in the user's browser.
+
+This includes rendering HTML, applying CSS styles, and executing JavaScript to create interactive experiences.
+It is responsible for what the user sees and interacts with directly.
+
+----------------------------
+
+Server-side refers to operations that happen on the web server.
+This includes handling database queries, processing form submissions,
+managing authentication, and generating dynamic content before it is sent to the client.
+Server-side logic is hidden from the user and ensures secure data handling and business logic.
+
+
+
+2- Role of HTML, CSS, and JavaScript:
+----------------------------------
+HTML (HyperText Markup Language) provides the structure of a web page.
+It defines elements like headings, paragraphs, images, and links.
+
+----------------------------
+
+CSS (Cascading Style Sheets) controls the visual appearance of the HTML content.
+It handles layout, colors, fonts, spacing, and responsiveness.
+
+----------------------------
+
+JavaScript adds interactivity and dynamic behavior to the page.
+It allows for actions like form validation, animations, content updates without reloading, and user interaction handling.
+
+
+
+3- Folder Structure and its Purpose:
+---------------------------------
+The folder structure helps organize project files for clarity and maintainability. A typical structure includes:
+
+- index.html: The main homepage of the website.
+- About_me.html: The page were all of my information are in.
+- Contact_me.html: The page that contains all of my socials and contacts.
+- css/: Contains all CSS files for styling the site.
+- assets: Stores image assets used across the pages.
+- docs/: Holds documentation files like Introduction.text and this file.
+
+This structure separates concerns, making the project easier to navigate, update, and collaborate on.
